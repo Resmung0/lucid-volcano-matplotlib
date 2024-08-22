@@ -1,0 +1,48 @@
+## ***************************************************************************
+## * BOXPLOT                                                                 *
+## ***************************************************************************
+boxplot.showmeans: False
+boxplot.flierprops.markerfacecolor: 891fff
+boxplot.flierprops.markeredgecolor: none
+boxplot.boxprops.color: white
+boxplot.whiskerprops.color: white
+boxplot.capprops.color: white
+boxplot.medianprops.color: C0
+
+## ***************************************************************************
+## * AXES                                                                    *
+## ***************************************************************************
+axes.facecolor: 1E2031
+axes.edgecolor: white
+axes.titlelocation: left
+axes.titlecolor: white
+axes.labelcolor: white
+axes.spines.top: False
+axes.spines.right: False
+axes.prop_cycle: cycler('color', ['f20d63', '891fff', '00EB7E', '3433FE', '30D3F4', 'FBFF12'])
+
+## ***************************************************************************
+## * TICKS                                                                   *
+## ***************************************************************************
+xtick.color: white
+ytick.color: white
+
+## ***************************************************************************
+## * GRIDS                                                                   *
+## ***************************************************************************
+grid.color: 474c60
+grid.linestyle: --
+grid.alpha: 0.7
+grid.linewidth: 0.5
+
+## ***************************************************************************
+## * LEGEND                                                                  *
+## ***************************************************************************
+legend.facecolor: FBFBFF
+legend.labelcolor: 181B28
+
+## ***************************************************************************
+## * FIGURE                                                                  *
+## ***************************************************************************
+figure.facecolor: 1E2031
+figure.edgecolor: 1E2031
