@@ -17,13 +17,20 @@ First, you need to clone this repo:
 git clone https://github.com/Resmung0/lucid-volcano-matplotlib.git
 ```
 
-You need to have `matplotlib` installed in a virtual environment, than move the `lucid-volcano.mplstyle` file to the propper `stylelib` folder. You can run `installation.py` to do all of this automatically:
+You need to have `matplotlib` installed in a virtual environment.
 
 ```bash
 # Skip this if you already have a virtual environment
 python -m venv .venv
 source .venv/bin/activate
 
+# Install matplotlib in the enviroment
+pip install matplotlib
+```
+
+Than you can run the `installation.py` file to automatically move the `lucid-volcano.mplstyle` file to the propper `stylelib` folder:
+
+```bash
 # Install the matplotlib theme
 python installation.py
 ```
